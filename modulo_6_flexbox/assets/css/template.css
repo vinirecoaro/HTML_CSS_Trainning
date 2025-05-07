@@ -37,8 +37,15 @@ nav a{
 }
 nav .active a,
 nav a:hover{
-    background-color: #39AAE1;
+    background-color: #EECB7B;
     color: #FFFFFF;
+}
+
+#banner{
+    background-image: url('../images/landscape.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 670px;
 }
 .logo-img{
     width: 50px;
