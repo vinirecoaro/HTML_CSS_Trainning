@@ -1,0 +1,27 @@
+.container{
+  width: max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: #CCC;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+label{
+  display: block;
+  margin-top: 10px;
+}
+input[type=text], input[type=password]{
+  width: 250px;
+  height: 25px;
+  padding: 5px;
+  display: block;
+}
+
+input[type=submit]{
+ margin-top: 20px;
+}

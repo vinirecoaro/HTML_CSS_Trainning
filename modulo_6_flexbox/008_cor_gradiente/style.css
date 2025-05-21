@@ -1,0 +1,20 @@
+.container{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background: #CCC;
+  background: linear-gradient(45deg, white, blue);
+
+  /* Para certificar que funcione em todos os navegadore usar: */
+
+  /* background: -moz-linear-gradient(white, blue);
+  background: -o-linear-gradient(white, blue);
+  background: -webkit-linear-gradient(white, blue); */
+
+  padding: 20px;
+  border-radius: 10px;
+}
