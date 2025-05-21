@@ -1,0 +1,19 @@
+body{
+  font-size: 20px;
+}
+
+h1{
+  font-size: 3em;
+}
+
+.box{
+  width: 50%;
+  font-size: 2em;
+  background-color: #555;
+}
+
+.box-interno{
+  width: 50%;
+  height: 10em;
+  background-color: #999;
+}

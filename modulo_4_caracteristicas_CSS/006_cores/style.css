@@ -1,0 +1,9 @@
+body{
+  margin: 0;
+  background-color: antiquewhite;
+  color: blue;
+}
+
+h1{
+  border: 2px solid currentColor;
+}
