@@ -1,0 +1,73 @@
+input, a {
+  display: block;
+}
+
+[required] {
+  background-color: red;
+}
+
+/* Seleciona as tags 'a' que iniciam com o texto 'https:' */
+a[href^="https:"]{
+  background-color: orange;
+}
+
+a[href^="http:"]{
+  background-color: lightblue;
+}
+
+#user[required] {
+  background-color: green;
+}
+
+input[type=date]{
+  background-color: blue;
+}
+
+/* Verifica se possui 'site' em alguma parte do texto de href da tag a */
+a[href*="site"]{
+  background-color: yellow;
+}
+
+/* Seleciona as tags 'a' que terminam com o texto 'html' */
+a[href$="html"]{
+  background-color: cyan;
+}
+
+.div_selector_1{
+  margin: 20px;
+  height: 30px;
+}
+
+/* Seleciona div que não tenham conteudo */
+.div_selector_1:empty{
+background-color: red;
+}
+
+/* Alterar a primeira letra do conteúdo */
+p::first-letter{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Alterar a primeira linha do conteúdo */
+p::first-line{
+  background-color: yellow;
+}
+
+.div_selector_2{
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+}
+
+/* Seleciona o primeiro elemento de determinada grupo (pode agrupar por tag, id, class, etc) */
+.div_selector_2:first-child{
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+/* Seleciona o ultimo elemento de determinada grupo (pode agrupar por tag, id, class, etc) */
+.div_selector_2:last-child{
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}

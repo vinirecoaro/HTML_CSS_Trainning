@@ -1,0 +1,7 @@
+/* Seleciona todos os elementos menos os que tem a classe 'not-p' */
+body :not(p){
+  background-color: red;
+}
+div{
+  height: 30px;
+}

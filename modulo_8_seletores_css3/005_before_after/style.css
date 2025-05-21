@@ -1,0 +1,35 @@
+body{
+  text-align: center;
+}
+span::before{
+  content: "-> ";
+  background-color: red;
+  padding: 5px;
+  margin-right: 5px;
+}
+span::after{
+  content: " <-";
+  background-color: red;
+  padding: 5px;
+  margin-left: 5px;
+}
+.spn::before{
+  content: "";
+  display: inline-block;
+  background-color: blue;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.spn::after{
+  content: "";
+  display: inline-block;
+  background-color: blue;
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+.spn{
+  background-color: green;
+}

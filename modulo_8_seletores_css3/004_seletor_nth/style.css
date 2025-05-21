@@ -1,0 +1,9 @@
+/* Seleciona o segundo elemento de tag 'div' */
+div:nth-child(2){
+  background-color: brown;
+}
+
+/* Seleciona o penultimo elemento de tag 'div' */
+div:nth-last-child(2){
+  background-color: blue;
+}

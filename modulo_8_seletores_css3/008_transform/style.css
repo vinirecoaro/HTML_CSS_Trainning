@@ -1,0 +1,36 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.default{
+  background-color: green;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.scale{
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 20px;
+  transform: scale(2,1);
+}
+
+.rotate{
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 20px;
+  transform: rotate(30deg);
+}
+
+.skew{
+  background-color: burlywood;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 20px;
+  transform: skew(30deg, 5deg);
+}

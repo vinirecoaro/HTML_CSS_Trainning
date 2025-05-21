@@ -1,0 +1,16 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+a{
+  background-color: darkblue;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px darkblue ;
+}
+a:hover{
+  background-color: blue;
+}
