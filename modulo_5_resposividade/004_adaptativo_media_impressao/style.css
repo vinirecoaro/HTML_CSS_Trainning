@@ -1,0 +1,19 @@
+body{
+  background-color: green;
+}
+h1{
+  font-size: 40px;
+  font-weight: bold;
+}
+table, td{
+  border: 2px solid black;
+}
+
+@media only print {
+  h1{
+    display: none;
+  }
+  table, td{
+    border: 0px;
+  }
+}
