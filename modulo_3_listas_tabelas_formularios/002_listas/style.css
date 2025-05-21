@@ -1,0 +1,9 @@
+h1{
+  font-family: "Playwrite RO", cursive;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}

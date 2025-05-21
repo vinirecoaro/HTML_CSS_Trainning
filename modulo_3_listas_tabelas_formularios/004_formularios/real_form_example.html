@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Página de teste</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playwrite+RO:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+  <h1>Formulários</h1>
+
+  <h2>Area de login</h2>
+  <form action="login.html" method="POST">
+
+    <div class="box">
+     
+      <h3>Cadastro</h3>
+
+      <label>
+        Nome Completo:<br>
+        <input type="text" name="name" id="name">
+      </label>
+
+      <label>
+        Descrição: <br>
+        <textarea name="descricao"></textarea>
+      </label>
+
+      <label>
+        Categoria: <br>
+        <select name="cateogria">
+          <option value="1">Categoria 1</option>
+          <option value="2">Categoria 2</option>
+          <option value="3">Categoria 3</option>
+          <option value="4">Categoria 4</option>
+          <option value="5">Categoria 5</option>
+        </select>
+      </label>
+     
+     
+      <label>
+        <input type="checkbox" name="active" id="active">
+        Declaro que li e aceito os <a href="" class="termoslink">termos de uso</a>.
+      </label>
+      <br>
+     
+      <button>Cadastrar</button>
+      <br>
+    </div>
+ 
+  </form>
+
+</body>
+</html>

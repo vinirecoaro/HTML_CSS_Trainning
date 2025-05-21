@@ -1,0 +1,18 @@
+h1{
+  font-family: "Playwrite RO", cursive;
+}
+table{
+  width: 600px;
+}
+table thead{
+  background-color: gray;
+}
+th, td{
+  border: 1px solid black;
+}
+tbody tr:hover{
+  background-color: lightblue;
+}
+tbody tr:nth-child(even){
+  background-color: lightgray;
+}

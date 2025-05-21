@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Página de teste</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playwrite+RO:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+  <h1>Formulários</h1>
+
+  <h2>Area de login</h2>
+  <form action="login.html" method="POST">
+
+    <!-- INPUTS -->
+
+    <div class="box">
+     
+      <h3>Inputs</h3>
+
+      <label>
+        Nome:<br>
+        <input type="text" name="name" id="name">
+      </label>
+      <br>
+
+      <label>
+        Descrição: <br>
+        <textarea name="descricao"></textarea>
+      </label>
+     
+      <input type="email" name="email">
+      <br>
+     
+      <input type="password" name="password">
+      <br>
+     
+      <input type="checkbox" name="active" id="active">
+      <label for="active">Declaro que li e aceito os termos de uso.</label>
+      <br>
+     
+      <input type="radio" name="genero"> 
+      <input type="radio" name="genero">
+      <br>
+     
+      <input type="date" name="date">
+      <br>
+     
+      <input type="datetime-local" name="datetime">
+      <br>
+     
+      <input type="month" name="month">
+      <br>
+     
+      <input type="week" name="month">
+      <br>
+     
+      <input type="time" name="time">
+      <br>
+     
+      <input type="color" name="color">
+      <br>
+     
+      <input type="number" name="number">
+      <br>
+     
+      <input type="range" name="range">
+      <br>
+     
+      <input type="submit">
+      <br>
+    </div>
+
+  <div class="box">
+    <!-- OTHERS -->
+
+    <h3>Outros tipos</h3>
+
+    <select name="ordenacao">
+      <option value="bestseller">Mais vendidos</option>
+      <option value="last" selected>Recentes</option>
+    </select>
+
+    <br><br>
+
+    <select name="order" size="2" multiple>
+      <option value="bestseller2">Mais vendidos</option>
+      <option value="last2" selected>Recentes</option>
+      <option value="worst" selected>Piores</option>
+    </select>
+
+    <br><br>
+
+    <button>Texto do próprio botão</button>
+
+  </div>
+ 
+  </form>
+
+</body>
+</html>
